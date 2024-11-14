@@ -9,7 +9,6 @@
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9",
         "mongodb/laravel-mongodb": "^4.8",
-        "mongodb/mongodb": "^1.20",
         "ext-mongodb": "*"
     },
     "require-dev": {
@@ -66,9 +65,6 @@
         "allow-plugins": {
             "pestphp/pest-plugin": true,
             "php-http/discovery": true
-        },
-        "platform": {
-            "ext-mongodb": "1.20.0"
         }
     },
     "minimum-stability": "stable",
